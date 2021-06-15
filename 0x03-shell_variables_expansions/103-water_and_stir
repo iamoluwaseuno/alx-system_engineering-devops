@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((WATER.SRIR))
+echo $(expr "$WATER" +"SRIR")
